@@ -3347,7 +3347,7 @@
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="44c0-7ca2-9d2e-58bb" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink id="8ce0-1cb3-e3bb-f470" name="Barb-Hook Lash" hidden="false" collective="false" import="true" targetId="e711-ab63-4899-8b00" type="selectionEntry">
@@ -3355,7 +3355,7 @@
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="5c3a-d930-db9a-9f37" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                     <entryLink id="9556-6b3c-8af5-ac29" name="Excoriator Chainaxe" hidden="false" collective="false" import="true" targetId="269e-ff0b-faec-d067" type="selectionEntry">
@@ -3363,7 +3363,7 @@
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="09af-b999-2e5f-3d07" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                       </costs>
                     </entryLink>
                     <entryLink id="8745-6bc7-db08-cf76" name="Chainaxe" hidden="false" collective="false" import="true" targetId="ed76-dace-31e4-b174" type="selectionEntry">
@@ -3379,7 +3379,7 @@
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ddc1-2231-ad64-e2a7" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                       </costs>
                     </entryLink>
                   </entryLinks>
@@ -3422,7 +3422,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
               <infoLinks>
                 <infoLink name="Ravager" hidden="false" type="profile" id="cb8e-660-d8de-5fd5" targetId="2b72-66e9-2e1c-797c"/>
@@ -3450,7 +3450,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
               </costs>
               <infoLinks>
                 <infoLink name="Ravager" hidden="false" type="profile" id="5a5c-8cf1-3ada-b0da" targetId="2b72-66e9-2e1c-797c"/>
@@ -3478,7 +3478,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
               <infoLinks>
                 <infoLink name="Ravager" hidden="false" type="profile" id="781a-1127-db6d-73cc" targetId="2b72-66e9-2e1c-797c"/>
@@ -3506,7 +3506,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
               <infoLinks>
                 <infoLink name="Ravager" hidden="false" type="profile" id="6f8b-d67e-29e4-6996" targetId="2b72-66e9-2e1c-797c"/>
@@ -5047,6 +5047,11 @@
             <modifier type="set" field="name" value="Murderous Strike (5+)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="8e46-ce07-cd43-f701" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
+          </modifiers>
+        </infoLink>
         <infoLink id="ab30-d5f6-691b-69b1" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
         <infoLink id="ac91-51bf-7be1-cf73" name="Excoriator Chainaxe" targetId="fe3d-5624-1c0d-1908" type="profile"/>
       </infoLinks>
@@ -5064,9 +5069,9 @@
       </modifiers>
       <infoLinks>
         <infoLink id="2eab-2308-37e0-d852" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
-        <infoLink id="4040-0283-7e47-6c4f" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="4040-0283-7e47-6c4f" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (4+)"/>
+            <modifier type="set" field="name" value="Breaching (4+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="04c9-581e-3373-7f5f" name="Duellist’s Edge (X)" hidden="false" targetId="7bf3-86ce-04c2-e6ba" type="rule">
@@ -5087,9 +5092,9 @@
             <modifier type="set" field="name" value="Duellist’s Edge (1)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="8e46-ce07-cd43-f701" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="8e46-ce07-cd43-f701" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (4+)"/>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="83a1-32ee-6973-0390" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
